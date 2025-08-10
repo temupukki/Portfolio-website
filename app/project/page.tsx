@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-import Head from "next/head";
 import Link from "next/link";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 
@@ -18,9 +17,7 @@ const projects = [
 export default function Projects() {
   return (
     <div className=" text-white w-[60%] md:w-[60%] mx-auto">
-      <Head>
-        <title>Projects | Temesgen Gashaw</title>
-      </Head>
+      <title>Projects | Temesgen Gashaw</title>
 
       <div className="pt-16 md:pt-24 pb-12">
         <motion.div
