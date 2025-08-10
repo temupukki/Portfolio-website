@@ -117,7 +117,7 @@ export default function About() {
               interfaces to engineering backend systems that are fast, reliable,
               and built to scale. What drives me is the challenge of turning
               complex ideas into smooth, user-friendly experiences that feel
-              effortless. Whether I'm refining a feature or solving a tricky
+              effortless. Whether I&apos;m refining a feature or solving a tricky
               bug, I&apos;m all about creating solutions that are both thoughtful and
               impactful.
             </motion.p>
