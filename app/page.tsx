@@ -111,14 +111,14 @@ export default function About() {
               whileHover={{ x: 5 }}
               className="leading-relaxed text-gray-300 text-xl "
             >
-              Hey there! I'm Temesgen — a full-stack developer passionate about
+              Hey there! I&apos;m Temesgen — a full-stack developer passionate about
               building things that actually make a difference. I love diving
               into the full process, from sketching out clean, intuitive
               interfaces to engineering backend systems that are fast, reliable,
               and built to scale. What drives me is the challenge of turning
               complex ideas into smooth, user-friendly experiences that feel
               effortless. Whether I'm refining a feature or solving a tricky
-              bug, I’m all about creating solutions that are both thoughtful and
+              bug, I&apos;m all about creating solutions that are both thoughtful and
               impactful.
             </motion.p>
           </motion.div>

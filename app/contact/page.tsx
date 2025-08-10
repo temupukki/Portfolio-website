@@ -28,7 +28,7 @@ export default function Contact() {
             Get In Touch
           </h1>
           <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto">
-            Let's collaborate on something extraordinary
+            Let&apos;s collaborate on something extraordinary
           </p>
         </motion.div>
 
