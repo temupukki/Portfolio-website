@@ -26,7 +26,7 @@ export default function About() {
   return (
     <div className=" text-white w-[60%] mx-auto mt-10">
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <title>Temesgen Gashaw</title>
+      <title>Temesgen Gashaw gogogog</title>
       <Head>
         <title>About | Temesgen Gashaw</title>
       </Head>
