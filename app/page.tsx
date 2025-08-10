@@ -23,7 +23,11 @@ export default function About() {
   }, []);
 
   return (
+    
     <div className=" text-white w-[60%] mx-auto mt-10">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+
       <title>Temesgen Gashaw</title>
 
       <div className="pt-24 w-full">
