@@ -25,14 +25,9 @@ export default function About() {
 
   return (
     <div className=" text-white w-[60%] mx-auto mt-10">
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <title>Temesgen Gashaw gogogog</title>
-      <Head>
-        <title>About | Temesgen Gashaw</title>
-      </Head>
+      <title>Temesgen Gashaw</title>
 
       <div className="pt-24 w-full">
-        {/* Profile Section */}
         <motion.div
           className="flex items-center justify-between w-full"
           initial={{ opacity: 0, y: 20 }}
@@ -77,7 +72,6 @@ export default function About() {
           </div>
         </motion.div>
 
-        {/* About Me Section with Hover Animation */}
         <motion.div
           className="mt-24 w-full bg-gray-900/10  rounded-xl "
           initial={{ opacity: 0, y: 20 }}
@@ -112,15 +106,15 @@ export default function About() {
               whileHover={{ x: 5 }}
               className="leading-relaxed text-gray-300 text-xl "
             >
-              Hey there! I&apos;m Temesgen — a full-stack developer passionate about
-              building things that actually make a difference. I love diving
-              into the full process, from sketching out clean, intuitive
+              Hey there! I&apos;m Temesgen — a full-stack developer passionate
+              about building things that actually make a difference. I love
+              diving into the full process, from sketching out clean, intuitive
               interfaces to engineering backend systems that are fast, reliable,
               and built to scale. What drives me is the challenge of turning
               complex ideas into smooth, user-friendly experiences that feel
-              effortless. Whether I&apos;m refining a feature or solving a tricky
-              bug, I&apos;m all about creating solutions that are both thoughtful and
-              impactful.
+              effortless. Whether I&apos;m refining a feature or solving a
+              tricky bug, I&apos;m all about creating solutions that are both
+              thoughtful and impactful.
             </motion.p>
           </motion.div>
         </motion.div>
