@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <div className="w-[60%] mx-auto sticky top-0  backdrop-blur-md">
       <nav className="flex justify-between items-center h-16 text-gray-300 mt-4.5 mr-5.5">
-        <ul className="flex gap-10 text-[20px] text-gray-300">
+        <ul className="flex gap-10 text-[20px] text-gray-300 text-md">
           <Link href="/">
             <li className="relative cursor-pointer group">
               <span
