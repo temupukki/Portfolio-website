@@ -11,7 +11,7 @@ const stylingTools = [
   
 ];
 
-const frontendLanguages = ["JavaScript", "TypeScript", "HTML5", "CSS3"];
+const frontendLanguages = ["JavaScript", "TypeScript"];
 
 const backendLanguages = [
   "JavaScript",
