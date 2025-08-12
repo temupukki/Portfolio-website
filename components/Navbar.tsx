@@ -8,7 +8,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <div className="w-[60%] mx-auto sticky top-0  backdrop-blur-md">
+    <div className="w-[60%] mx-auto sticky top-0 z-50  bg-black shadow-md ">
       <nav className="flex justify-between items-center h-16 text-gray-300 mt-4.5 mr-5.5">
         <ul className="flex gap-10 text-[20px] text-gray-300 text-md">
           <Link href="/">
@@ -24,7 +24,7 @@ export default function Navbar() {
               </span>
               <span
                 className={`absolute bottom-0 left-0 h-0.5 bg-indigo-400 transition-all duration-300 ${
-                  pathname === "/" ? "w-full" : "w-0 group-hover:w-full"
+                  pathname === "/" ? "w-[60%]" : "w-0 group-hover:w-[60%]"
                 }`}
               ></span>
             </li>
@@ -43,7 +43,7 @@ export default function Navbar() {
               </span>
               <span
                 className={`absolute bottom-0 left-0 h-0.5 bg-indigo-400 transition-all duration-300 ${
-                  pathname === "/project" ? "w-full" : "w-0 group-hover:w-full"
+                  pathname === "/project" ? "w-[60%]" : "w-0 group-hover:w-[60%]"
                 }`}
               ></span>
             </li>
@@ -62,7 +62,7 @@ export default function Navbar() {
               </span>
               <span
                 className={`absolute bottom-0 left-0 h-0.5 bg-indigo-400 transition-all duration-300 ${
-                  pathname === "/skill" ? "w-full" : "w-0 group-hover:w-full"
+                  pathname === "/skill" ? "w-[60%]" : "w-0 group-hover:w-[60%]"
                 }`}
               ></span>
             </li>
@@ -81,7 +81,7 @@ export default function Navbar() {
               </span>
               <span
                 className={`absolute bottom-0 left-0 h-0.5 bg-indigo-400 transition-all duration-300 ${
-                  pathname === "/contact" ? "w-full" : "w-0 group-hover:w-full"
+                  pathname === "/contact" ? "w-[60%]" : "w-0 group-hover:w-[60%]"
                 }`}
               ></span>
             </li>
