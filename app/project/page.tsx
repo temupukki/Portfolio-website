@@ -19,6 +19,14 @@ const projects = [
     tags: ["Typescript",  "Tailwind", "Postgres","Prisma","ShadCN","Better-auth","Next.js","React","zod"],
     github: "https://github.com/temupukki/milk-shop-website",
     live: "https://milk-shop-website-8tfp.vercel.app/"
+  },
+      {
+    title: "Milk Shop Website",
+    description:
+      "simple compilance tracker !",
+    tags: ["Typescript",  "Tailwind", "Postgres","Prisma","ShadCN","Better-auth","Next.js","React","zod","supabase"],
+    github: "https://github.com/temupukki/simple-bpmn-website",
+    live: "https://simple-bpmn-website.vercel.app/"
   }
  
 ];
