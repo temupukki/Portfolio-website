@@ -13,7 +13,7 @@ const projects = [
     live: ""
   },
     {
-    title: "Milk Shop Website",
+    title: "Milk Shop Web App",
     description:
       "A high-performance dairy e-commerce platform built on Next.js. TypeScript core with Tailwind for utility-first styling and ShadCN for production-ready UI components. Powered by Postgres via Prisma ORM for robust data handling. Implements secure authentication with better-auth.",
     tags: ["Typescript",  "Tailwind", "Postgres","Prisma","ShadCN","Better-auth","Next.js","React","zod"],
@@ -21,7 +21,7 @@ const projects = [
     live: "https://milk-shop-website-8tfp.vercel.app/"
   },
       {
-    title: "Milk Shop Website",
+    title: "BPMN Web App",
     description:
       "simple compilance tracker !",
     tags: ["Typescript",  "Tailwind", "Postgres","Prisma","ShadCN","Better-auth","Next.js","React","zod","supabase"],
