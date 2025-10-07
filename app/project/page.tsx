@@ -10,25 +10,81 @@ const projects = [
       "MATLAB tool for verifying handwritten signatures using AlexNet CNN and image processing techniques.",
     tags: ["MATLAB", "AlexNet", "CNN"],
     github: "https://github.com/temupukki/Signature-verfication-system",
-    live: ""
+    live: "",
   },
-    {
+  {
     title: "Milk Shop Web App",
     description:
       "A high-performance dairy e-commerce platform built on Next.js. TypeScript core with Tailwind for utility-first styling and ShadCN for production-ready UI components. Powered by Postgres via Prisma ORM for robust data handling. Implements secure authentication with better-auth.",
-    tags: ["Typescript",  "Tailwind", "Postgres","Prisma","ShadCN","Better-auth","Next.js","React","zod"],
+    tags: [
+      "Typescript",
+      "Tailwind",
+      "Postgres",
+      "Prisma",
+      "ShadCN",
+      "Better-auth",
+      "Next.js",
+      "React",
+      "zod",
+    ],
     github: "https://github.com/temupukki/milk-shop-website",
-    live: "https://milk-shop-website-8tfp.vercel.app/"
+    live: "https://milk-shop-website-8tfp.vercel.app/",
   },
-      {
-    title: "BPMN Web App",
-    description:
-      "simple compilance tracker !",
-    tags: ["Typescript",  "Tailwind", "Postgres","Prisma","ShadCN","Better-auth","Next.js","React","zod","supabase"],
+  {
+    title: "ESX - Compilance Tracker   ",
+    description: "simple compilance tracker !",
+    tags: [
+      "Typescript",
+      "Tailwind",
+      "Postgres",
+      "Prisma",
+      "ShadCN",
+      "Better-auth",
+      "Next.js",
+      "React",
+      "zod",
+      "supabase",
+    ],
     github: "https://github.com/temupukki/simple-bpmn-website",
-    live: "https://simple-bpmn-website.vercel.app/"
-  }
- 
+    live: "https://simple-bpmn-website.vercel.app/",
+  },
+  {
+    title: "Temporary-Banking-System For Loan-Orgination web-app  ",
+    description: "Temporary-Banking-System For Loan-Orgination web-app!",
+    tags: [
+      "Typescript",
+      "Tailwind",
+      "Postgres",
+      "Prisma",
+      "ShadCN",
+      "Better-auth",
+      "Next.js",
+      "React",
+      "zod",
+      "supabase",
+    ],
+    github: "https://github.com/temupukki/temporary-CBS",
+    live: "https://temporary-cbs.vercel.app/",
+  },
+  {
+    title: "Dashen-bank Loan-Orgination web-app  ",
+    description:
+      "A secure, scalable platform designed to streamline the end-to-end loan processing lifecycle—from application intake and eligibility checks to approval, documentation, and disbursement. Built with role-based access, BPMN-modeled workflows, and audit-ready compliance features, it empowers financial institutions to enhance operational efficiency, reduce turnaround time, and ensure regulatory alignment.",
+    tags: [
+      "Typescript",
+      "Tailwind",
+      "Postgres",
+      "Prisma",
+      "ShadCN",
+      "Better-auth",
+      "Next.js",
+      "React",
+      "zod",
+      "supabase",
+    ],
+    github: "https://github.com/temupukki/Loan-orgination",
+    live: "https://loan-orgination.vercel.app/",
+  },
 ];
 
 export default function Projects() {
