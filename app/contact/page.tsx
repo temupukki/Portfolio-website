@@ -7,9 +7,23 @@ import {
   FiMessageSquare,
   FiLinkedin,
   FiGithub,
+  FiDownload,
+  FiFileText,
 } from "react-icons/fi";
 import { FaTelegram } from "react-icons/fa";
+
 export default function Contact() {
+  const handleDownloadCV = () => {
+    const cvUrl =
+      "https://drive.google.com/file/d/1oT4dnQfyHMEknfrnb5jadTbIdCXieZZX/view?usp=sharing";
+    const link = document.createElement("a");
+    link.href = cvUrl;
+    link.download = "Temesgen-Gashaw-CV.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className=" text-white w-full md:w-[60%] mx-auto px-4">
       <title>Contact | Temesgen Gashaw</title>
@@ -22,14 +36,25 @@ export default function Contact() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-6 md:mb-6"
+          className="text-center mb-8 md:mb-10"
         >
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-indigo-400 mb-3 md:mb-4">
             Get In Touch
           </h1>
-          <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-6">
             Let&apos;s collaborate on something extraordinary
           </p>
+
+          <motion.button
+            onClick={handleDownloadCV}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="flex items-center gap-3 px-6 py-3 md:px-8 md:py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg transition-all duration-300 shadow-lg hover:shadow-indigo-500/25 border border-indigo-400 mx-auto"
+          >
+            <FiDownload className="text-lg" />
+            <span>Download CV</span>
+            <FiFileText className="text-lg" />
+          </motion.button>
         </motion.div>
 
         <motion.div

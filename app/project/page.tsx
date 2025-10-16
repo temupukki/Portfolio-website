@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { FiGithub, FiExternalLink } from "react-icons/fi";
+import { FiGithub, FiExternalLink, FiArrowRight } from "react-icons/fi";
 
 const projects = [
   {
@@ -157,6 +157,25 @@ export default function Projects() {
             </motion.div>
           ))}
         </div>
+
+        <motion.div 
+          className="flex mt-12"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.8, duration: 0.5 }}
+        >
+          <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+            <Link 
+              href="https://github.com/temupukki" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg transition-all duration-300 shadow-lg hover:shadow-indigo-500/25 border border-indigo-400"
+            >
+              <span>View More Projects</span>
+              <FiArrowRight className="text-lg" />
+            </Link>
+          </motion.div>
+        </motion.div>
       </div>
     </div>
   );
