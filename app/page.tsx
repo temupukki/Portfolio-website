@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export default function About() {
   const [typedText, setTypedText] = useState("");
   const fullText = "Temesgen Gashaw";
-  const titleText = "Full-Stack Developer";
+  const titleText = "Computer Engineer | Full-Stack Developer | AI & Machine Learning Enthusiast";
 
   useEffect(() => {
     let i = 0;
