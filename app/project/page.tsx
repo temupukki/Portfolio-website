@@ -6,7 +6,7 @@ import { FiGithub, FiExternalLink, FiArrowRight } from "react-icons/fi";
 const projects = [
  
 {
-    title: "Dashen-bank Loan-Orgination web-app  ",
+    title: "Loan-Orgination web-app  ",
     description:
       "A secure, scalable platform designed to streamline the end-to-end loan processing lifecycle—from application intake and eligibility checks to approval, documentation, and disbursement. Built with role-based access, BPMN-modeled workflows, and audit-ready compliance features, it empowers financial institutions to enhance operational efficiency, reduce turnaround time, and ensure regulatory alignment.",
     tags: [
