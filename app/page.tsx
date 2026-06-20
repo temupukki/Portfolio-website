@@ -45,7 +45,7 @@ export default function About() {
             transition={{ type: "spring", stiffness: 260, damping: 20 }}
           >
             <Image
-              src="/temesgengashaw.png"
+              src="/TemesgenGashawPhoto.png"
               alt="Temesgen Gashaw"
               width={256} // Matches largest container size (64*4=256)
               height={256} // Matches largest container size
@@ -113,13 +113,16 @@ export default function About() {
               Hey there! I&apos;m Temesgen — a full-stack developer passionate
               about building things that actually make a difference. I love
               diving into the full process, from sketching out clean, intuitive
-              interfaces to engineering backend systems that are fast, reliable,
-              and built to scale. What drives me is the challenge of turning
-              complex ideas into smooth, user-friendly experiences that feel
-              effortless. Whether I&apos;m refining a feature or solving a
-              tricky bug, I&apos;m all about creating solutions that are both
+              interfaces to engineering backend systems that are fast, reliable,and 
+              built to scale.Alongside that, I’m deeply engaged in AI and machine learning 
+              exploring how intelligent models can transform raw data into meaningful insights and smarter applications.
+              What drives me is the challenge of turning complex ideas 
+              into smooth, user-friendly experiences that feel
+              effortless. Whether I&apos;m refining a feature or solving atricky bug, 
+              I&apos;m all about creating solutions that are both
               thoughtful and impactful.
             </motion.p>
+            &apos;
           </motion.div>
         </motion.div>
       </div>
