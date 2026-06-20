@@ -52,7 +52,7 @@ export default function Contact() {
             className="flex items-center gap-3 px-6 py-3 md:px-8 md:py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg transition-all duration-300 shadow-lg hover:shadow-indigo-500/25 border border-indigo-400 mx-auto"
           >
             <FiDownload className="text-lg" />
-            <span>Download CV</span>
+            <span>My CV</span>
             <FiFileText className="text-lg" />
           </motion.button>
         </motion.div>
