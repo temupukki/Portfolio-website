@@ -122,7 +122,6 @@ export default function About() {
               I&apos;m all about creating solutions that are both
               thoughtful and impactful.
             </motion.p>
-            &apos;
           </motion.div>
         </motion.div>
       </div>
