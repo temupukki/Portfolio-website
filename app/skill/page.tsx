@@ -22,6 +22,12 @@ const backendLanguages = [
   "REST",
   "GraphQL",
 ];
+const AI = [
+  "PyTorch",
+  "Transformers",
+  "BERT",
+  "BART",
+];
 const backendFrameworks = ["Node.js", "Express.js", "FastAPI"];
 const backendData = ["PostgreSQL", "SQLite", "Prisma"];
 
