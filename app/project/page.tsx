@@ -4,14 +4,45 @@ import Link from "next/link";
 import { FiGithub, FiExternalLink, FiArrowRight } from "react-icons/fi";
 
 const projects = [
-  {
-    title: "Signature Verification System",
+ 
+{
+    title: "Dashen-bank Loan-Orgination web-app  ",
     description:
-      "MATLAB tool for verifying handwritten signatures using AlexNet CNN and image processing techniques.",
-    tags: ["MATLAB", "AlexNet", "CNN"],
-    github: "https://github.com/temupukki/Signature-verfication-system",
-    live: "",
+      "A secure, scalable platform designed to streamline the end-to-end loan processing lifecycle—from application intake and eligibility checks to approval, documentation, and disbursement. Built with role-based access, BPMN-modeled workflows, and audit-ready compliance features, it empowers financial institutions to enhance operational efficiency, reduce turnaround time, and ensure regulatory alignment.",
+    tags: [
+      "Typescript",
+      "Tailwind",
+      "Postgres",
+      "Prisma",
+      "ShadCN",
+      "Better-auth",
+      "Next.js",
+      "React",
+      "zod",
+      "supabase",
+    ],
+    github: "https://github.com/temupukki/Loan-orgination",
+    live: "https://loan-orgination.vercel.app/",
   },
+  {
+  title: "Clinical NLP and OCR System",
+  description:
+    "An end-to-end clinical document processing platform that integrates OCR and transformer-based NLP models for medical information extraction. The system digitizes scanned clinical documents, performs biomedical Named Entity Recognition (NER), classifies entity assertions (Present, Absent, Possible, Historical), and generates concise clinical summaries through a unified FastAPI-powered inference pipeline.",
+  tags: [
+    "Python",
+    "PyTorch",
+    "Transformers",
+    "FastAPI",
+    "BioClinicalBERT",
+    "BERT",
+    "BART",
+    "TrOCR",
+    "Deep Learning",
+    "Hugging Face",
+    "REST API",
+  ],
+},
+
   {
     title: "Milk Shop Web App",
     description:
@@ -66,24 +97,14 @@ const projects = [
     github: "https://github.com/temupukki/temporary-CBS",
     live: "https://temporary-cbs.vercel.app/",
   },
-  {
-    title: "Dashen-bank Loan-Orgination web-app  ",
+  
+   {
+    title: "Signature Verification System",
     description:
-      "A secure, scalable platform designed to streamline the end-to-end loan processing lifecycle—from application intake and eligibility checks to approval, documentation, and disbursement. Built with role-based access, BPMN-modeled workflows, and audit-ready compliance features, it empowers financial institutions to enhance operational efficiency, reduce turnaround time, and ensure regulatory alignment.",
-    tags: [
-      "Typescript",
-      "Tailwind",
-      "Postgres",
-      "Prisma",
-      "ShadCN",
-      "Better-auth",
-      "Next.js",
-      "React",
-      "zod",
-      "supabase",
-    ],
-    github: "https://github.com/temupukki/Loan-orgination",
-    live: "https://loan-orgination.vercel.app/",
+      "MATLAB tool for verifying handwritten signatures using AlexNet CNN and image processing techniques.",
+    tags: ["MATLAB", "AlexNet", "CNN"],
+    github: "https://github.com/temupukki/Signature-verfication-system",
+    live: "",
   },
 ];
 
