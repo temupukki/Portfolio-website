@@ -8,7 +8,6 @@ const stylingTools = [
   "Tailwind CSS",
   "Framer Motion",
   "ShadCN UI",
-  
 ];
 
 const frontendLanguages = ["JavaScript", "TypeScript"];
@@ -22,12 +21,16 @@ const backendLanguages = [
   "REST",
   "GraphQL",
 ];
+
 const AI = [
   "PyTorch",
-  "Transformers",
+  "TensorFlow",
+  "Transformers (Hugging Face)",
+  "scikit-learn",
   "BERT",
   "BART",
 ];
+
 const backendFrameworks = ["Node.js", "Express.js", "FastAPI"];
 const backendData = ["PostgreSQL", "SQLite", "Prisma"];
 
@@ -42,6 +45,7 @@ export default function Skills() {
       </Head>
 
       <div className="pt-14 w-full">
+        
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -139,6 +143,7 @@ export default function Skills() {
           </div>
         </motion.div>
 
+       
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -211,6 +216,36 @@ export default function Skills() {
                 </motion.div>
               ))}
             </div>
+          </div>
+        </motion.div>
+
+        
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.2, duration: 0.8 }}
+          className="mb-20"
+        >
+          <h2 className="text-2xl font-bold mb-8 text-indigo-400">
+            AI & Machine Learning
+          </h2>
+
+          <div className="flex flex-wrap gap-4">
+            {AI.map((tool, index) => (
+              <motion.div
+                key={tool}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.03 * index + 0.3, duration: 0.5 }}
+                whileHover={{
+                  y: -3,
+                  backgroundColor: "rgba(79, 70, 229, 0.2)",
+                }}
+                className="px-6 py-3 bg-gray-800/50 rounded-lg border border-gray-700 cursor-default"
+              >
+                {tool}
+              </motion.div>
+            ))}
           </div>
         </motion.div>
       </div>
