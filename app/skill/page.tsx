@@ -17,9 +17,7 @@ const backendLanguages = [
   "TypeScript",
   "Python",
   "Java",
-  "Go",
   "REST",
-  "GraphQL",
 ];
 
 const AI = [

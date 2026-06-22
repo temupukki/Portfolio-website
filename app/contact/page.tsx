@@ -15,7 +15,7 @@ import { FaTelegram } from "react-icons/fa";
 export default function Contact() {
   const handleDownloadCV = () => {
     const cvUrl =
-      "https://drive.google.com/file/d/1OEP08bpWWjG-an1ZznECq7sdt2gRai-p/view?usp=sharing";
+      "https://drive.google.com/file/d/108J-hJu4vB0braJ6lygV9Hw6hp139pad/view?usp=sharing";
     const link = document.createElement("a");
     link.href = cvUrl;
     link.download = "Temesgen-Gashaw-CV.pdf";
